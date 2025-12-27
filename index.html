@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>All Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>All Video Downloader</h1>
+    <p>TikTok • YouTube MP3 • Instagram</p>
+</header>
+
+<main>
+    <div class="card">
+        <select id="platform">
+            <option value="tiktok">TikTok Video</option>
+            <option value="ytmp3">YouTube MP3</option>
+            <option value="instagram">Instagram Video</option>
+        </select>
+
+        <input type="text" id="url" placeholder="Tempel link di sini">
+
+        <button onclick="download()">Download</button>
+
+        <div id="result"></div>
+    </div>
+</main>
+
+<footer>
+    <p>© 2025 Downloader | Edu Purpose</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
